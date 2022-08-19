@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.navbar h3 {
+    font-size: 45px;
+    padding: 0px 0px 0px 10px;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+}
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    color: rgba(99, 101, 241, 0.788);
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-width: 340px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 400px;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.show {
+    display: block;
+}
+
+.back-image{
+    background-image: url("./robot.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    display: block;
+    text-align: center;
+}
+
+.footer{
+    background-color: #333;
+    padding: 20px 30px 20px 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: end;
+}
+
+.footer a:hover {
+    color: rgba(99, 101, 241, 0.788);
+}

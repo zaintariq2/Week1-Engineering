@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Zain Tariq</title>
+</head>
+<body>
+    <script src="index.js"></script>
+    <!-- <h3 style="padding: 20px; font-size: 45px;">AI Lawyer</h3> -->
+    <div class="navbar">
+        <div>
+            <h3>AI Lawyer</h3>
+        </div>
+        <div class="main-menu">
+            <a href="#home">Home</a>
+            <a href="#business">Business</a>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Functional Requirements</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Input the number of hours</a>
+                    <a href="#">Get the output</a>
+                    <a href="#">View the Functional Requirement</a>
+                    <a href="#">View the Non-Functional Requirements</a>
+                    <a href="#">User can get solution to their legal issue</a>
+                    <a href="#">Software Legal policy</a>
+                    <a href="#">Software privacy policy</a>
+                    <a href="#">Email Client</a>
+                    <a href="#">Discord username</a>
+                    <a href="#">Account profile name</a>
+                    <a href="#">Account Name</a>
+                    <a href="#">Notifications</a>
+                    <a href="#">Car Repossession Issue</a>
+                    <a href="#">Taxes</a>
+                    <a href="#">Car Registration Renewal</a>
+                    <a href="#">Child Support Payment</a>
+                    <a href="#">Close Bank Accounts</a>
+                    <a href="#">Copyright Protection</a>
+                    <a href="#">File for Bankruptcy</a>
+                    <a href="#">File SEC Complaint</a>
+                    <a href="#">Hotel Complaint and Refund</a>
+                    <a href="#">Inflation Pay Request</a>
+                    <a href="#">Insurance Claims</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction2()" class="dropbtn">Non-Functional Requirements</button>
+                <div id="non-myDropdown" class="dropdown-content">
+                    <a href="#">Page loading time</a>
+                    <a href="#">Output time</a>
+                    <a href="#">Software availability timing</a>
+                    <a href="#">User Experience </a>
+                    <a href="#">Ease of software</a>
+                    <a href="#">Software maintenance time</a>
+                    <a href="#">Number of users software can handle concurrently</a>
+                    <a href="#">Number of users use a specific function concurrently</a>
+                    <a href="#">Data usage</a>
+                    <a href="#">Computation power</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-image">
+        <form>
+            <section class="text-gray-600 body-font">
+                <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+    
+                    <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:m-auto w-full mt-10 md:mt-0">
+                        <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Rate for this project is $6/hr</h2>
+    
+                        <!-- Estimate Hours -->
+                        <div class="relative mb-4">
+                            <label for="hours" class="leading-7 text-gray-600">Enter Hours</label>
+                            <input type="number" name="hours" id="hours" placeholder="Hours..." class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required><br><br>
+                        </div>
+        
+                        <!--  button-->
+                        <button type="button" class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="myrate()">Submit</button>
+                        <div class="leading-7 mt-5 text-gray-600">
+                            <p id="rate-output"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>        
+    </div>
+    <footer class="footer">
+        <p class="mr-5">zaintariq#9731</p> | 
+        <a href = "mailto: bsce19023@itu.edu.pk" class="ml-5">bsce19023@itu.edu.pk</a>
+    </footer>
+</body>
+</html>
